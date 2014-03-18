@@ -47,6 +47,12 @@ And to read out the local database:
 
     curl -b cookie $DODEDODO_SERVER:$DODEDODO_PORT/modules/database
 
+To deploy modules on your phone or somewhere else, you will need to know the existing modules and devices. In `deploy.sh` an example launches a module. It assumes the modules are retrieved in a local `modules.db.json` file. It picks from this file a module with an `index` given through the script's argument  `deploy.sh INDEX`. To handle the json on the command-line you need an additional dependency:
+
+    npm install -g underscore-cli
+
+The deployment also needs to know the device to pick, now the last device in `devices.db.json` is chosen. This part is a bit cumbersome, but hack, a REST API is not meant for command-line applications.
+
 Have fun!
 
 ## Copyrights
