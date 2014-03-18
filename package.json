@@ -1,0 +1,24 @@
+{
+  "name": "dodedodo",
+  "version": "0.0.2",
+  "dependencies": {
+      "jade": "0.35.0"
+    , "express": "latest"
+    , "connect-assets": "latest"
+    , "sendgrid": "latest"
+    , "node-xmpp-client": "0.1.4"
+    , "socket.io": "latest"
+    , "cookie": "latest"
+    , "mongoose": "latest"
+    , "connect-mongo": "latest"
+    , "crypto": "latest"
+    , "underscore": "latest"
+    , "browserify": "latest"
+    , "brfs": "latest"
+    , "ltx": "latest"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
+}

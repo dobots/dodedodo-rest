@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Note that using a server locally is absolutely not different than using the Dodedodo server itself. This server functions as a bridge between a REST API and the XMPP requests it has to generate. To reduce the load on our servers we really recommended you to use a local REST API. In this way we distribute the load of our REST API and we remove one additional possible single-point-of-failure (SPOF) in our infrastructure.
+
+DODEDODO_SERVER=localhost
+DODEDODO_PORT=5000
+DODEDODO_MODULES_FILE=modules.db.json
+DODEDODO_DEVICES_FILE=devices.db.json
+
